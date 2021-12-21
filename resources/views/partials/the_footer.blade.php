@@ -321,7 +321,7 @@ $listImageService = [
                             <ul>
                                 @foreach ($listItemsFooter_1 as $items_1)
                                     <li>
-                                        <a :href="$items_1['href']">{{ $items_1['title'] }}</a>
+                                        <a href="$items_1['href']">{{ $items_1['title'] }}</a>
                                     </li>
                                 @endforeach
                             </ul>    
@@ -331,7 +331,7 @@ $listImageService = [
                             <ul>
                                 @foreach ($listItemsFooter_2 as $items_2)
                                     <li>
-                                        <a :href="$items_2['href']">{{ $items_2['title'] }}</a>
+                                        <a href="$items_2['href']">{{ $items_2['title'] }}</a>
                                     </li>
                                 @endforeach
                             </ul>
@@ -342,7 +342,7 @@ $listImageService = [
                         <ul>
                             @foreach ($listItemsFooter_3 as $items_3)
                                 <li>
-                                    <a :href="$items_3['href']">{{ $items_3['title'] }}</a>
+                                    <a href="$items_3['href']">{{ $items_3['title'] }}</a>
                                 </li>
                             @endforeach
                         </ul>
@@ -352,7 +352,7 @@ $listImageService = [
                         <ul>
                             @foreach ($listItemsFooter_4 as $items_4)
                                 <li>
-                                    <a :href="$items_4['href']">{{ $items_4['title'] }}</a>
+                                    <a href="$items_4['href']">{{ $items_4['title'] }}</a>
                                 </li>
                             @endforeach
                         </ul>
