@@ -1,0 +1,38 @@
+/****************************************************************************
+Header
+****************************************************************************/
+
+$white: #fff;
+$grey-dark: #1c1c1c;
+$blue: #0282f9;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+    .logo{
+        img{
+            width: 80px;
+        }
+    }
+
+    .menu{
+
+        ul{
+            list-style-type: none;
+            display: flex;
+        }
+        li{
+            a{
+                padding: 15px;
+                color: $grey-dark;
+                text-transform: uppercase;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+
+    }
+}

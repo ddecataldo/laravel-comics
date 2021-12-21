@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/****************************************************************************
+Header
+****************************************************************************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+header .logo img {
+  width: 80px;
+}
+
+header .menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header .menu li a {
+  padding: 15px;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/****************************************************************************
+Main
+****************************************************************************/
+
+main {
+  background-color: #1c1c1c;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  color: #fff;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.products-container .product-card {
+  flex-basis: calc(16.6666666667% - 15px);
+  position: relative;
+  text-transform: uppercase;
+}
+
+.products-container .product-card h4 {
+  padding-top: 10px;
+}
+
+.products-container .product-card img {
+  width: 100%;
+}
+
+.products-container .product-card .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  transition: opacity 0.3s;
+}
+
+/****************************************************************************
+Footer
+****************************************************************************/
+
+footer {
+  color: #fff;
+}
+
+footer .bg-primary {
+  background-color: #0282f9;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+footer .bg-primary img {
+  width: 40px;
+}
+
+footer .bg-primary .column5 {
+  display: flex;
+  align-items: center;
+}
+
+footer .bg-primary .column5 span {
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer .bkg {
+  background-image: url(/img/footer-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .row ul {
+  list-style-type: none;
+}
+
+footer .row ul li a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: #fff;
+}
+
+footer .menu_footer {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-image: url("/dc-logo-bg.png");
+  background-position: center right;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  width: 100%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer .menu_footer .menu_1,
+footer .menu_footer .menu_2,
+footer .menu_footer .menu_3 {
+  padding-right: 30px;
+  float: left;
+}
+
+footer .menu_footer .claimer {
+  clear: both;
+}
+
+footer .menu_footer .menu_1,
+footer .menu_footer .menu_1_1,
+footer .menu_footer .menu_1_2,
+footer .menu_footer .menu_2,
+footer .menu_footer .menu_3 {
+  margin-bottom: 12px;
+}
+
+footer .bg-dark {
+  background-color: #1c1c1c;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+footer .bg-dark .column1 .btn {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+footer .bg-dark .column1 .btn-primary {
+  border-color: #0282f9;
+  padding: 10px 15px;
+}
+
+footer .bg-dark .column1 .btn-primary:hover {
+  background-color: #0282f9;
+}
+
+footer .bg-dark .column2 {
+  display: flex;
+  align-items: center;
+}
+
+footer .bg-dark .column2 span {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .bg-dark .column2 img {
+  margin-left: 15px;
+}
+
